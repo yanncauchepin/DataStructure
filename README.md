@@ -1,4 +1,5 @@
-# Data Structure in C #
+# Data Structure #
+> ### C ###
 
 This code implements various data structure in low-level language :
 - **Binary Search Tree** (BST) : Binary tree data structure where node has at most two children. Left child nodes are smaller and right child nodes are larger.
