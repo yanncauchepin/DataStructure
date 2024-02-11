@@ -70,15 +70,24 @@ If at least of those two variables is negative, the iterative monitor is ending.
 ### Exemple ###
 
 For all data structure, a test file ***test.txt*** is located in the ***Test*** directory to automatically insert values for the user, without using the monitor.
-
 ```bash
-cd DataStructure
+cd BST
+```
+```bash
+cd HashTable
+```
+```bash
+cd LinkedList
+```
+```bash
+cd YaleBSTMatrix
+```
+```bash
 cd Code
 make main
 cd ..
 ./main < Test/test.txt
 ```
-Simply change the first line by the desired data structure implemented.
 
 ## To do list ##
 
