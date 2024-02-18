@@ -94,4 +94,3 @@ cd ..
 
 - [ ] Correct segmentation fault in YaleBSTMatrix.
 - [ ] Add a YaleDOKMatrix implementation.
-- [ ] Adapt the repository to well developer traditions.
