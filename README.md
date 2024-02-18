@@ -17,23 +17,23 @@ Before running this code, ensure you have the following :
 
 ## Usage ##
 
-1. For each data structure represented in the folders **BST**, **HashTable**, **LinkedList** and **YaleBSTMatrix**, the user must first navigate into the desired directory.
+1. For each data structure represented in the folders **binary_search_tree**, **hash_table**, **linked_list** and **bst_yale_matrix**, the user must first navigate into the desired directory.
 ```bash
-cd BST
+cd binary_search_tree
 ```
 ```bash
-cd HashTable
+cd hash_table
 ```
 ```bash
-cd LinkedList
+cd linked_list
 ```
 ```bash
-cd YaleBSTMatrix
+cd bst_yale_matrix
 ```
 
-2. Navigate then to the **Code** directory containing the source code and the ***Makefile*** file.
+2. Navigate then to the **code** directory containing the source code and the ***Makefile*** file.
 ```bash
-cd Code
+cd code
 ```
 2. Compile the corresponding program by running ***make main***.
 ```bash
@@ -47,10 +47,10 @@ cd ..
 ```bash
 ./main
 ```
-*(Optional)* 5. Clean the repository by running ***make clean*** in the **Code** directory.
+*(Optional)* 5. Clean the repository by running ***make clean*** in the **code** directory.
 
 ```bash
-cd Code
+cd code
 make clean
 ```
 
@@ -58,10 +58,10 @@ make clean
 
 For each implementation, the monitor is very similar : the user have to insert values until a critical value where the iterative scan is ending.
 
-For data structure among **BST**, **HashTable** and **LinkedList**, the user have to inform :
+For data structure among **binary_search_tree**, **hash_table** and **linked_list**, the user have to inform :
 - ***Value*** : Sequence of float until a critical value set to 0.
 
-For data structure among **YaleBSTMatrix**, the user have to iteratively inform :
+For data structure among **bst_yale_matrix**, the user have to iteratively inform :
 - ***Row*** : Positive integer corresponding to the row index of the next value to insert.
 - ***Column*** : Positive integer corresponding to the column index of the next value to insert.
 
@@ -70,24 +70,24 @@ If at least of those two variables is negative, the iterative monitor is ending.
 
 ### Exemple ###
 
-For all data structure, a test file ***test.txt*** is located in the ***Test*** directory to automatically insert values for the user, without using the monitor.
+For all data structure, a test file ***test.txt*** is located in the **test** directory to automatically insert values for the user, without using the monitor.
 ```bash
-cd BST
+cd binary_search_tree
 ```
 ```bash
-cd HashTable
+cd hash_table
 ```
 ```bash
-cd LinkedList
+cd linked_list
 ```
 ```bash
-cd YaleBSTMatrix
+cd bst_yale_matrix
 ```
 ```bash
-cd Code
+cd code
 make main
 cd ..
-./main < Test/test.txt
+./main < test/test.txt
 ```
 
 ## To do list ##
