@@ -89,8 +89,3 @@ make main
 cd ..
 ./main < test/test.txt
 ```
-
-## To do list ##
-
-- [ ] Correct segmentation fault in YaleBSTMatrix.
-- [ ] Add a YaleDOKMatrix implementation.
