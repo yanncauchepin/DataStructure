@@ -1,5 +1,4 @@
-# Data Structure #
-> ### Language : C ###
+# Data Structure
 
 This code implements various data structure in low-level language :
 - **Binary Search Tree** (BST) : Binary tree data structure where node has at most two children. Left child nodes are smaller and right child nodes are larger.
@@ -9,13 +8,13 @@ This code implements various data structure in low-level language :
 - **Binary Tree Matrix** : Representation of a matrix using a binary tree data structure where each node in the three save the row and column coordinates with the corresponding value of the matrix. The splitting bewteen left and right is realised by a function which take into account both coordinates. The easiest function here is to first split by a single coordinate and then, in case of a tie, split by the second corrdinate. This format allows for efficient traversal and manipulation of the matrix, especially for sparse matrices where many elements are zero. However, it may not be as space-efficient as other sparse matrix formats.
 - **Dictionay Of Keys Matrix** (DOK) : Sparse matrix where only non-zero elements are stored along with their coordinates as keys in a dictionary data structure. Each element"s value is associated with its corresponding row and column index. This format is suitable for dynamic construction of sparse matrices, offering fast insertion and retrieval operations without requiring pre-allocation of memory. However, it may not be as efficient for algebraic operations as other sparse matrix formats.
 
-## Prerequisites ##
+## Prerequisites
 
 Before running this code, ensure you have the following :
 
 - ***gcc*** compiler installed on your system.
 
-## Usage ##
+## Usage
 
 1. For each data structure represented in the folders **binary_search_tree**, **hash_table**, **linked_list** and **bst_yale_matrix**, the user must first navigate into the desired directory.
 ```bash
@@ -54,7 +53,7 @@ cd code
 make clean
 ```
 
-## Monitor ##
+## Monitor
 
 For each implementation, the monitor is very similar : the user have to insert values until a critical value where the iterative scan is ending.
 
@@ -68,7 +67,7 @@ For data structure among **bst_yale_matrix**, the user have to iteratively infor
 If at least of those two variables is negative, the iterative monitor is ending. Otherwise, the user have then to inform for each valid coordinates :
 - ***Value*** : Float corresponding to the value to insert.
 
-### Exemple ###
+### Exemple
 
 For all data structure, a test file ***test.txt*** is located in the **test** directory to automatically insert values for the user, without using the monitor.
 ```bash
@@ -89,3 +88,7 @@ make main
 cd ..
 ./main < test/test.txt
 ```
+
+---
+
+![](featured_image.jpg)
