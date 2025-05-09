@@ -1,3 +1,9 @@
+<p align="center">
+  <img src="featured_image.gif" alt="" width="80%">
+</p>
+
+---
+
 # Data Structure
 
 This code implements various data structure in low-level language :
@@ -88,7 +94,3 @@ make main
 cd ..
 ./main < test/test.txt
 ```
-
----
-
-![](featured_image.jpg)
