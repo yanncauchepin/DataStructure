@@ -1,9 +1,3 @@
-<p align="center">
-  <img src="featured_image.png" alt="" width="80%">
-</p>
-
----
-
 # Data Structure
 
 This code implements various data structure in low-level language :
